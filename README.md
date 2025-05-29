@@ -61,16 +61,18 @@ Create a collection for movies or searches with fields like:
 5. **Update .env file** 
    
     VITE_TMDB_API_KEY=your_tmdb_read_access_token
-VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
-VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
+   
+   VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+   
+   VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
 
-6. **Install the dependencies** required for the project.  
+7. **Install the dependencies** required for the project.  
    In the terminal, run:
 
    > `npm install`  
    This will download all packages listed in `package.json` and set up your `node_modules` folder.
 
-7. **Start the application** by running:
+8. **Start the application** by running:
 
    > `npm run dev`  
    This will launch the development server and open the app in your default browser.
